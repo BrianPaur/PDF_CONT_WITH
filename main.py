@@ -108,7 +108,7 @@ class ACCOUNTCashProjections:
                     trade_date_day = (int(settle_date_day) - 2)
                     trade_date = (f"{settle_date_month}{trade_date_day}{settle_date_year}")
 
-        os.chdir("C:/Users/bpaur/Desktop/test2/")
+        os.chdir("IMPORT FILE ROOT DIRECTORY")
 
         if sub_amount != None:
             sub_line1 = f"ACCOUNT_NUMBER,dp,,caca,pendcash,{trade_date},{settle_date},,,,,awca,none,,,,y,{sub_amount}"
